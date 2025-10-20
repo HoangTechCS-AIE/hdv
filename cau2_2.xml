@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BVDK>
+    <Khoa MaKhoa="K01" TenKhoa="Ngoại">
+        <Phong>302</Phong>
+        <BenhNhan MaSoBN="BN01" HoTen="Nguyễn Tuấn Anh">
+            <GioiTinh>Nam</GioiTinh>
+            <SoNgayDieuTri>2</SoNgayDieuTri>
+            <ThoiGian>
+                <NgayNhapVien>2017-01-01</NgayNhapVien>
+            </ThoiGian>
+            <DiaChi>Hà Nội</DiaChi>
+        </BenhNhan>
+        <BenhNhan MaSoBN="BN02" HoTen="Trần Văn B">
+            <GioiTinh>Nam</GioiTinh>
+            <SoNgayDieuTri>4</SoNgayDieuTri>
+            <ThoiGian>
+                <NgayNhapVien>2017-02-10</NgayNhapVien>
+            </ThoiGian>
+            <DiaChi>Hà Nam</DiaChi>
+        </BenhNhan>
+    </Khoa>
+
+    <Khoa MaKhoa="K02" TenKhoa="Nội">
+        <Phong>201</Phong>
+        <BenhNhan MaSoBN="BN03" HoTen="Lê Thị C">
+            <GioiTinh>Nữ</GioiTinh>
+            <SoNgayDieuTri>3</SoNgayDieuTri>
+            <ThoiGian>
+                <NgayNhapVien>2017-03-05</NgayNhapVien>
+            </ThoiGian>
+            <DiaChi>Thái Bình</DiaChi>
+        </BenhNhan>
+        <BenhNhan MaSoBN="BN04" HoTen="Phạm Văn D">
+            <GioiTinh>Nam</GioiTinh>
+            <SoNgayDieuTri>1</SoNgayDieuTri>
+            <ThoiGian>
+                <NgayNhapVien>2017-03-07</NgayNhapVien>
+            </ThoiGian>
+            <DiaChi>Nghệ An</DiaChi>
+        </BenhNhan>
+    </Khoa>
+</BVDK>
