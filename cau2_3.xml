@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+<head>
+    <title>Bệnh viện đa khoa</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <xsl:for-each select="BVDK/Khoa">
+        <h2>BỆNH VIỆN ĐA KHOA</h2>
+        <table border="1" cellpadding="6" cellspacing="0">
+            <tr>
+                <th colspan="5">DANH SÁCH BỆNH NHÂN</th>
+            </tr>
+            <tr>
+                <td colspan="2">Mã Khoa: <xsl:value-of select="@MaKhoa"/></td>
+                <td colspan="2">Tên Khoa: <xsl:value-of select="@TenKhoa"/></td>
+                <td>Phòng: <xsl:value-of select="Phong"/></td>
+            </tr>
+            <tr>
+                <th>Mã số BN</th>
+                <th>Họ tên</th>
+                <th>Ngày nhập viện</th>
+                <th>Số ngày điều trị</th>
+                <th>Số tiền phải trả</th>
+            </tr>
+            <xsl:for-each select="BenhNhan">
+                <tr>
+                    <td><xsl:value-of select="@MaSoBN"/></td>
+                    <td><xsl:value-of select="@HoTen"/></td>
+                    <td><xsl:value-of select="ThoiGian/NgayNhapVien"/></td>
+                    <td><xsl:value-of select="SoNgayDieuTri"/></td>
+                    <td>
+                        <xsl:value-of select="SoNgayDieuTri * 15000"/>
+                    </td>
+                </tr>
+            </xsl:for-each>
+        </table>
+        <br/>
+    </xsl:for-each>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
