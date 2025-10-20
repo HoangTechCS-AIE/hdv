@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HoaDonBanHang>
+    <ThongTinChung>
+        <SoHoaDon>0000001</SoHoaDon>
+        <NgayLap>2025-10-20</NgayLap>
+    </ThongTinChung>
+
+    <DonViBanHang>
+        <TenCongTy>Công ty TNHH MTV khai thác và chế biến khoáng sản Hoàng Phúc</TenCongTy>
+        <DiaChi>Bản Na Kay, Huyện Viêng Xay, Tỉnh Hủa Phăn</DiaChi>
+        <DienThoai>020 9989 8940 - 020 5806 2626</DienThoai>
+        <Email>Hoangphuc.ls@gmail.com</Email>
+    </DonViBanHang>
+
+    <ThongTinNguoiMua>
+        <HoTen>Nguyễn Văn A</HoTen>
+        <SDT>0987654321</SDT>
+    </ThongTinNguoiMua>
+
+    <DanhSachHangHoa>
+        <MatHang>
+            <STT>1</STT>
+            <TenHangHoa>Xi măng Hoàng Thạch</TenHangHoa>
+            <DVT>Bao</DVT>
+            <SoLuong>50</SoLuong>
+            <DonGia>85000</DonGia>
+            <ThanhTien>4250000</ThanhTien>
+            <GhiChu>Loại A</GhiChu>
+        </MatHang>
+        <MatHang>
+            <STT>2</STT>
+            <TenHangHoa>Cát vàng xây dựng</TenHangHoa>
+            <DVT>m3</DVT>
+            <SoLuong>10</SoLuong>
+            <DonGia>250000</DonGia>
+            <ThanhTien>2500000</ThanhTien>
+            <GhiChu></GhiChu>
+        </MatHang>
+    </DanhSachHangHoa>
+
+    <TongCong>
+        <SoTien>6750000</SoTien>
+    </TongCong>
+
+    <ChuKy>
+        <NguoiMuaHang>Nguyễn Văn A</NguoiMuaHang>
+        <NguoiBanHang>Trần Thị B</NguoiBanHang>
+    </ChuKy>
+</HoaDonBanHang>
